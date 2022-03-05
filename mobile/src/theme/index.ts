@@ -1,11 +1,4 @@
 import { extendTheme } from 'native-base';
+import { colors } from './colors';
 
-const newColorTheme = {
-  brand: {
-    900: '#8287af',
-    800: '#7c83db',
-    700: '#b3bef6',
-  },
-};
-
-export const theme = extendTheme({ colors: newColorTheme });
+export const theme = extendTheme({ colors });
