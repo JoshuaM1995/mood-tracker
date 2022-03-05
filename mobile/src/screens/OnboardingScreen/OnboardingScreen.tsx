@@ -1,6 +1,5 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Box, Button, Image, Text } from 'native-base';
-import React, { Dispatch, SetStateAction, useRef } from 'react';
+import React, { useRef } from 'react';
 import { ImageURISource } from 'react-native';
 import AppIntroSlider from 'react-native-app-intro-slider';
 import onboardingMoonImage from '../../../assets/images/onboarding/moon.png';
