@@ -27,7 +27,14 @@ export default function App() {
             <Text>and save to reload.</Text>
           </HStack>
           <Link href="https://docs.nativebase.io" isExternal>
-            <Text color="primary.500" underline fontSize={'xl'}>
+            <Text
+              fontFamily="body"
+              color="primary.500"
+              underline
+              fontSize={'xl'}
+              fontWeight={100}
+              fontStyle="italic"
+            >
               Learn NativeBase
             </Text>
           </Link>
