@@ -1,24 +1,23 @@
 import {
-  Center, Code, Heading, HStack, Link, NativeBaseProvider, Switch, Text, theme, useColorMode, VStack
-} from "native-base";
-import React from "react";
-import NativeBaseIcon from "./src/components/NativeBaseIcon";
-
-// Define the config
-const config = {
-  useSystemColorMode: false,
-  initialColorMode: "dark",
-};
+  Center,
+  Code,
+  Heading,
+  HStack,
+  Link,
+  NativeBaseProvider,
+  Switch,
+  Text,
+  theme,
+  useColorMode,
+  VStack,
+} from 'native-base';
+import React from 'react';
+import NativeBaseIcon from './src/components/NativeBaseIcon';
 
 export default function App() {
   return (
     <NativeBaseProvider theme={theme}>
-      <Center
-        _dark={{ bg: "blueGray.900" }}
-        _light={{ bg: "blueGray.50" }}
-        px={4}
-        flex={1}
-      >
+      <Center _dark={{ bg: 'blueGray.900' }} _light={{ bg: 'blueGray.50' }} px={4} flex={1}>
         <VStack space={5} alignItems="center">
           <NativeBaseIcon />
           <Heading size="lg">Welcome to NativeBase</Heading>
@@ -28,7 +27,7 @@ export default function App() {
             <Text>and save to reload.</Text>
           </HStack>
           <Link href="https://docs.nativebase.io" isExternal>
-            <Text color="primary.500" underline fontSize={"xl"}>
+            <Text color="primary.500" underline fontSize={'xl'}>
               Learn NativeBase
             </Text>
           </Link>
@@ -46,11 +45,9 @@ function ToggleDarkMode() {
     <HStack space={2} alignItems="center">
       <Text>Dark</Text>
       <Switch
-        isChecked={colorMode === "light"}
+        isChecked={colorMode === 'light'}
         onToggle={toggleColorMode}
-        aria-label={
-          colorMode === "light" ? "switch to dark mode" : "switch to light mode"
-        }
+        aria-label={colorMode === 'light' ? 'switch to dark mode' : 'switch to light mode'}
       />
       <Text>Light</Text>
     </HStack>
