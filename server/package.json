@@ -7,7 +7,9 @@
   "private": true,
   "scripts": {
     "start": "ts-node-dev --respawn --watch --rs ./src/index.ts",
-    "start:debug": "yarn start --debug"
+    "start:debug": "yarn start --debug",
+    "lint": "eslint --ext .ts src",
+    "fix": "yarn lint --fix"
   },
   "dependencies": {
     "shared": "link:../lib/shared"

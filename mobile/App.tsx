@@ -2,7 +2,7 @@ import {
   Center, Code, Heading, HStack, Link, NativeBaseProvider, Switch, Text, theme, useColorMode, VStack
 } from "native-base";
 import React from "react";
-import NativeBaseIcon from "./components/NativeBaseIcon";
+import NativeBaseIcon from "./src/components/NativeBaseIcon";
 
 // Define the config
 const config = {

@@ -1,3 +1,3 @@
-import {serverPort} from 'shared';
+import { serverPort } from "shared";
 
 console.log(`START SERVER ON PORT ${serverPort}`);
