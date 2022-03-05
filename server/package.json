@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "Mood tracker backend",
+  "main": "index.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev --respawn --watch --rs ./src/index.ts",
+    "start:debug": "yarn start --debug"
+  },
+  "dependencies": {
+    "shared": "link:../lib/shared"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}

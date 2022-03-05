@@ -1,0 +1,8 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "description": "Mood app shared code",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "private": true
+}
