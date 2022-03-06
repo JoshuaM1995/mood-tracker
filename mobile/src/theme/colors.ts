@@ -50,11 +50,10 @@ export const colors = {
     400: '#FFE1C6',
     500: '#FEC694',
     600: '#FF9636',
-    700: '',
     800: '',
     900: '',
   },
-  ink: {
+  indigo: {
     100: '#FFFFFF',
     200: '#FCFDFD',
     300: '#EFF1F4',
@@ -63,7 +62,7 @@ export const colors = {
     600: '#A7AFC0',
     700: '#778898',
     800: '#435572',
-    900: '#1D3559',
+    900: '#162E53',
   },
   white: '#fff',
   gray: {
