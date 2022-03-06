@@ -46,7 +46,7 @@ export const colors = {
   orange: {
     100: '',
     200: '',
-    300: '',
+    300: '#FEF6ED',
     400: '#FFE1C6',
     500: '#FEC694',
     600: '#FF9636',

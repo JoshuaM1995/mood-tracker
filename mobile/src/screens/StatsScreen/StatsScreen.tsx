@@ -1,11 +1,11 @@
 import { Text } from 'native-base';
 import React from 'react';
-import { Page } from '../../components/Page';
+import { ScrollablePage } from '../../components/ScrollablePage';
 
 export const StatsScreen = () => {
   return (
-    <Page>
+    <ScrollablePage>
       <Text>StatsScreen</Text>
-    </Page>
+    </ScrollablePage>
   );
 };
